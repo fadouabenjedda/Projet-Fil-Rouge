@@ -442,6 +442,7 @@ footer{
         color: #96C5E2;
     }
     .menu.active{
+        display: block;
         flex-direction: column;
         background-color: #bcd3e2;
         color: #1D3F54;
