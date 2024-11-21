@@ -25,24 +25,12 @@
                 <li><a class="a_menu" href="#projects">Projets</a></li>
                 <li><a class="a_menu" href="#skills">Compétences</a></li>
                 <li><a class="a_menu" href="#contactus">Contact</a></li>
-                <li><a class="a_menu" href="#">Blog</a></li>
+               
             </ul>
         </nav>
     </header>
 
     <section id="subheader">
-
-        <div class="background_image">
-            <span class="txt1">Bonjour!</span>
-        <h1 class="txt2">Je suis <span>Fadoua Ben jedda</span></h1>
-        <h1 class="txt3">Créatrice de sites web</h1>
-        <div class="button_subheader">
-            <button class="btn1_subheader" class="slide_in_up"><a href="#about">Lire plus</a></button>
-            <button class="btn2_subheader" class="slide_in_up"><a href="#contactus">Contact</a></button>
-        </div>
-        </div>
-
-        
         <div class="text_subheader" class="slide_in_right">
             <span class="txt1">Bonjour!</span>
             <h1 class="txt2">Je suis <span>Fadoua Ben jedda</span></h1>
@@ -53,7 +41,7 @@
             </div>
         </div>
         <div class="photo_subheader">
-            <img src="ressources/43b5f79bb6d2cb6f0e052f32396571bc.jpg" alt="photo profil" width="400px" height="400px">
+            <img src="ressources/95c45cbe-cec3-40b5-ae39-d827130638a9.png" alt="photo profil" width="400px" height="400px">
         </div>
     </section>
 
@@ -111,7 +99,7 @@
                 <img class="image_project" src="ressources/groupe soussi immobilier 1.png"
                     alt="site web groupe soussi immobilier" width="400px" height="300px">
                 <div class="title_project">
-                    <p class="p_title_project"><a class="link_project" href="https://groupe-soussi.ma/">consulter le
+                    <p class="p_title_project"><a class="link_project" href="https://groupe-soussi.ma/" target="_blank">consulter le
                             projet</a></p>
                 </div>
             </div>
@@ -119,7 +107,7 @@
                 <img class="image_project" src="ressources/TMS energie.png"
                     alt="site web TMS energie" width="400px" height="300px">
                 <div class="title_project">
-                    <p class="p_title_project"><a class="link_project" href="https://tmsenergies.fr/">consulter le
+                    <p class="p_title_project"><a class="link_project" href="https://tmsenergies.fr/" target="_blank">consulter le
                             projet</a></p>
                 </div>
             </div>
@@ -131,7 +119,7 @@
                 <img class="image_project" src="ressources/association ATDM.fr copy.png"
                     alt="site web association ATDM" width="400px" height="300px">
                 <div class="title_project">
-                    <p class="p_title_project"><a class="link_project" href="https://asso-atdm.fr/">consulter le
+                    <p class="p_title_project"><a class="link_project" href="https://asso-atdm.fr/" target="_blank">consulter le
                             projet</a></p>
                 </div>
             </div>
@@ -139,7 +127,7 @@
                 <img class="image_project" src="ressources/volumecoffe.png"
                     alt="site web volumecoffe" width="400px" height="300px">
                 <div class="title_project">
-                    <p class="p_title_project"><a class="link_project" href="https://volumecoffe.com/">consulter le
+                    <p class="p_title_project"><a class="link_project" href="https://volumecoffe.com/" target="_blank">consulter le
                             projet</a></p>
                 </div>
             </div>
@@ -148,14 +136,14 @@
             <div class="project_container">
                 <img class="image_project" src="ressources/Capture d’écran 2024-11-18 164257.png" alt="site web trail adrar d'agadir" width="400px" height="300px">
                 <div class="title_project">
-                    <p class="title_project"><a class="link_project" href="https://trailadraragadir.com/">consulter le
+                    <p class="title_project"><a class="link_project" href="https://trailadraragadir.com/" target="_blank">consulter le
                         projet</a></p>
                 </div>
             </div>
             <div class="project_container">
                 <img class="image_project" src="ressources/Capture d’écran 2024-11-18 164910.png" alt="site web stile mlih" width="400px" height="300px">
                 <div class="title_project">
-                    <p class="title_project"><a class="link_project" href="https://stilemlih.com/">consulter le
+                    <p class="title_project"><a class="link_project" href="https://stilemlih.com/" target="_blank">consulter le
                         projet</a></p>
                 </div>
             </div>
@@ -230,26 +218,29 @@
 
             </div>
         </div>
+        <section id="section_formulaire">
 
-        <form id="contact_form">
-            <div class="photo_form">
-                <img src="ressources/Hand coding-bro.png" alt="photo profile" width="450px" height="479px">
-            </div>
+        <div class="photo_form">
+            <img src="ressources/Hand coding-bro.png" alt="photo profile" width="450px" height="479px">
+        </div>
+
+        <form class="contact_form" action="https://formspree.io/f/meoqzzln" method="post" target="_blank">
             <div class="container">
                 <div class="div_form">
-                    <input id="form_nom" type="texte" placeholder="Nom">
+                    <input id="form_nom" name="name" type="text" placeholder="Nom" required>
                 </div>
                 <div class="div_form">
-                    <input id="form_email" type="texte" placeholder="Email">
+                    <input id="form_email" name="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="div_form">
-                    <textarea name="" id="form_message" cols="30" rows="7" placeholder="Message"></textarea>
+                    <textarea id="form_message" name="message" cols="30" rows="7" placeholder="Message" required></textarea>
                 </div>
                 <button class="button_form" type="submit"><i class="fa-solid fa-paper-plane"></i> Envoyer</button>
 
             </div>
 
         </form>
+    </section>
         <footer class="slide_in_up">
             <section class="section_footer">
             <div class="div_footer">
@@ -267,10 +258,10 @@
             <div class="div_footer">
                 <h3>Services</h3>
                 <ul class="liste_footer">
-                    <li>Création de sites web WordPress sur mesure</li><br>
-                    <li>Personnalisation de thèmes</li><br>
-                    <li>Intégration et configuration de plugins</li><br>
-                    <li>Optimisation SEO</li>
+                    <li class="a_footer">Création de sites web WordPress sur mesure</li><br>
+                    <li class="a_footer">Personnalisation de thèmes</li><br>
+                    <li class="a_footer">Intégration et configuration de plugins</li><br>
+                    <li class="a_footer">Optimisation SEO</li>
                 </ul>
             </div>
 
@@ -278,9 +269,9 @@
             <div class="div_footer">
                 <h3>Contact</h3>
                 <ul class="liste_footer">
-                    <li><i class="fa-regular fa-envelope"></i> fadouabenjedda01@gmail.com</li><br>
-                    <li><i class="fa-solid fa-phone"></i> 0698525167</li><br>
-                    <li><i class="fa-solid fa-location-dot"></i> Agadir, Inzegane, Tarrast</li>
+                    <li><i class="fa-regular fa-envelope"></i> <a class="a_footer" href="mailto:fadouabenjedda01@gmail.com">fadouabenjedda01@gmail.com</a></li><br>
+                    <li><i class="fa-solid fa-phone"></i> <a class="a_footer" href="tel:0698525167">0698525167</a></li><br>
+                    <li><i class="fa-solid fa-location-dot"></i> <a class="a_footer">Agadir, Inzegane, Tarrast</a></li>
                 </ul>
             </div>
         </section>
