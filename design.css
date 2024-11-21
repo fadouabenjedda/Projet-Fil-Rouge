@@ -160,13 +160,11 @@ h2{
     background-color: #1D3F54;
     width: 450px;
     height: 250px;
-    cursor: pointer;
     transition: 0.3s;
 }
 .box:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     opacity: 0.5;
-    z-index: 10;
 }
 h4{
     align-items: center;
@@ -230,9 +228,19 @@ h4{
 .section2, .section3{
     margin-top: 50px;
 }
+/* .card{
+    background-color: #96C5E2;
+    padding: 1.5px;
+    border: solid #96C5E2;
+    box-shadow: 1px 2px 1px #96C5E2;
+} */
 .project_container{
     position: relative;
     display: inline-block;
+    border: solid #1D3F54;
+    box-shadow: 1px 2px 3px #1D3F54;
+    background-color: #1D3F54;
+
 }
 .image_project{
     width: 400px;
@@ -251,16 +259,21 @@ h4{
     left: 0;
     color: white;
     font-size: 30px;
+    transition: 1s;
+    
 }
 .link_project{
-    color: black;
+    color: white;
     font-weight: bold;
+    font-size: 35px;
 }
 .project_container:hover .image_project{
     opacity: 0.2;
+  
 }
 .project_container:hover .title_project{
     opacity: 1;
+    transform: scale(1.2);
 }
 .p_contactus{
     font-size: 20px;
@@ -341,16 +354,24 @@ h4{
     font-size: 20px;
     cursor: pointer;
     color: #000000;
-    font-weight: 600;
+    font-weight: 500;
 }
 .a_footer:hover{
-    text-decoration: underline;
     color: #0678b4;
 }
 h3{
     margin-left: 40px;
-    color:#1D3F54;
+    color:#0678b4;
     font-size: 30px;
+}
+footer{
+   
+}
+.ligne{
+    margin-top: 10px;
+    height: 5px;
+    background-color: #1D3F54;
+    margin: 2% 5% 2% 5%;
 }
 
 .copyright{
