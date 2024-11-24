@@ -393,7 +393,17 @@ footer{
     font-weight: bold;
     text-align: center;
 }
-
+.arrow_up{
+    text-align: center;
+    text-decoration: none;
+    background-color: #bcd3e2;
+    color: #0678b4;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 650px;
+}
 .slide_in_up{
     opacity: 0;
     transform: translateY(50px);
