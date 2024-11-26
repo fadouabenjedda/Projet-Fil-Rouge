@@ -131,6 +131,7 @@ h2{
     font-size: 70px;
     text-align: center;
     color: #0678b4;
+    
 }
 .photo_about{
     width: 40%;
@@ -241,20 +242,9 @@ h4{
 .section2, .section3{
     margin-top: 50px;
 }
-/* .card{
-    background-color: #96C5E2;
-    padding: 1.5px;
-    border: solid #96C5E2;
-    box-shadow: 1px 2px 1px #96C5E2;
-} */
 .project_container{
     position: relative;
     display: inline-block;
-    /* border: solid rgba(0,0,0, .2);
-    box-shadow: 0 10px 15px rgba(0,0,0, .2);
-    background-color: rgba(0,0,0, .2);
-    border-radius: 15px; */
-
 }
 .image_project{
     width: 400px;
@@ -309,6 +299,7 @@ h4{
 }
 .container{
     background-color:#EEEEEE;
+    border-radius: 10px;
     font-size: 20px;
     width: 400px;
     padding: 3%;
@@ -317,11 +308,13 @@ h4{
 
 #form_nom{
     background-color: #D9D9D9;
+    border-radius: 10px;
     border-style: none;
     padding: 3%;
     width: 380px;
 }
 #form_email{
+    border-radius: 10px;
     background-color: #D9D9D9;
     border-style: none;
     padding: 3%;
@@ -329,6 +322,7 @@ h4{
     margin-top: 30px;
 }
 #form_message{
+    border-radius: 10px;
     margin-top: 30px;
     background-color: #D9D9D9;
     border-style: none;
@@ -402,7 +396,7 @@ footer{
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
-    margin-left: 650px;
+    float: right;
 }
 .slide_in_up{
     opacity: 0;
@@ -450,6 +444,7 @@ footer{
     }
 }
 
+/* Responsive version tablette */
 
 @media (max-width:768px){
     .menu{
@@ -459,7 +454,6 @@ footer{
     }
     .menu_burger{
         display: block;
-        margin-left: 200px;
         color: #96C5E2;
     }
     .menu.active{
@@ -468,7 +462,6 @@ footer{
         color: white;
     }
     #subheader{
-        margin-top: 25px;
         flex-direction: column;
     }
     h1{
@@ -500,28 +493,13 @@ footer{
     }
     .p_services{
         margin: 0px 0px 20px 0px;
-
     }
-    .section1{
+    .section1, .section2, .section3{
         display: block;
+        justify-content: center;
+        align-items: center;
     }
-    .section1 img{
-        width: 355px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .section2{
-        display: block;
-    }
-    .section2 img{
-        width: 355px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .section3{
-        display: block;
-    }
-    .section3 img{
+    .image_project{
         width: 355px;
         margin-left: 10px;
         margin-right: 10px;
@@ -568,16 +546,26 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    
-    .section_footer{
-       justify-content: left;
-       text-align: left;
-       display: block;
-    }
-
-
 }
-    
+
+/* Responsive version mobile */
+@media (max-width:480px){
+    header{
+       width: 100%;
+    }
+    .section_footer{
+        display: block;
+    }
+    .div_footer{
+       text-align: left;
+    }
+    .image_project{
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+}
 
 
 
