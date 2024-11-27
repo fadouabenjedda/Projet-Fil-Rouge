@@ -282,6 +282,28 @@ h4{
     opacity: 1;
     transform: scale(1.2);
 }
+#blog{
+    margin-top: 50px;
+}
+.blog_container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.blog{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.box_blog{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 .p_contactus{
     font-size: 20px;
     text-align: center;
@@ -398,11 +420,27 @@ footer{
     border-radius: 10px;
     float: right;
 }
+.slide_in_up {
+    animation: slideInUp 1s ease-in-out;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .slide_in_up{
     opacity: 0;
     transform: translateY(50px);
     animation: slideInUp 0.9s forwards;
 }
+    
 @keyframes slideInUp{
     from{
         opacity: 0;
