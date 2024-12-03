@@ -42,9 +42,6 @@ nav{
     font-weight: 600;
     cursor: pointer;
 }
-.a_menu:visited{
-    color:#96C5E2;
-}
 .a_menu:hover{
     color: #ddd;
     text-decoration: underline;

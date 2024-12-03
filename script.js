@@ -21,8 +21,8 @@ let articles = [
       articleDiv.className = "article";
       articleDiv.innerHTML = `
       <h3>${article.title}</h3>
-        <p>${article.content}</p>
-      `;
+        <p>${article.content}</p>`;
+        
       articlesDiv.appendChild(articleDiv);
     });
   }
